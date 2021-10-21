@@ -1,0 +1,29 @@
+<h1>Seja bem vindo ao curso de Angular!</h1>
+
+<h4 class="text-danger">{{anuncio}}</h4>
+
+<div class="row">
+  <div class="col">
+    <app-card-produto
+    [foto]="foto"
+    [nomeProduto]="nomeProduto"
+    [promocao]="promocao"
+    [idProduto]="idProduto"
+    [dataValidade]="dataValidade"
+    [precoProduto]="precoProduto"
+    ></app-card-produto>
+  </div>
+
+  <div class="col">
+    <app-card-produto
+    foto="https://besthqwallpapers.com/Uploads/13-9-2017/20533/thumb2-etretat-4k-coast-sea-arches.jpg"
+    nomeProduto="Viagem a França"
+    [promocao]="false"
+    [idProduto]="52"
+    dataValidade="2021-08-31"
+    [precoProduto]="2500.00"
+    ></app-card-produto>
+  </div>
+</div>
+
+
