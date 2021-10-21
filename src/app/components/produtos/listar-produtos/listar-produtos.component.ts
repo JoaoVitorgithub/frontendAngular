@@ -36,7 +36,4 @@ export class ListarProdutosComponent implements OnInit {
     });
     this.carregarProdutos();
   }
-
-
-
 }
